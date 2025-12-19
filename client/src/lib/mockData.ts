@@ -43,20 +43,20 @@ export interface Subscriber {
 const INITIAL_PROJECTS: Project[] = [
   {
     id: '1',
-    name: 'Skyline Architecture',
-    description: 'A modern architectural marvel featuring sustainable glass facades and eco-friendly materials.',
+    name: 'Mumbai Corporate Tower',
+    description: 'A modern architectural marvel featuring sustainable glass facades and eco-friendly materials in the heart of Mumbai\'s financial district.',
     imageUrl: project1,
   },
   {
     id: '2',
-    name: 'FinTech Mobile App',
-    description: 'A sleek and intuitive mobile banking application designed for the next generation of users.',
+    name: 'Bangalore FinTech App',
+    description: 'A sleek and intuitive mobile banking application designed for tech-savvy users across India.',
     imageUrl: project2,
   },
   {
     id: '3',
-    name: 'EcoPack Solutions',
-    description: 'Revolutionary biodegradable packaging design for a leading organic food brand.',
+    name: 'Delhi EcoPack Initiative',
+    description: 'Revolutionary biodegradable packaging design for a leading organic food brand operating across North India.',
     imageUrl: project3,
   },
 ];
@@ -64,23 +64,23 @@ const INITIAL_PROJECTS: Project[] = [
 const INITIAL_CLIENTS: Client[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    designation: 'CEO, TechFlow',
-    description: 'Working with this team was a game-changer. They understood our vision perfectly and delivered beyond expectations.',
+    name: 'Priya Sharma',
+    designation: 'CEO, TechFlow India',
+    description: 'Working with this team was a game-changer. They understood our vision perfectly and delivered beyond expectations for our Mumbai operations.',
     imageUrl: client1,
   },
   {
     id: '2',
-    name: 'Michael Chen',
-    designation: 'Founder, GreenEarth',
-    description: 'The creativity and attention to detail shown in our rebranding project were outstanding. Highly recommended!',
+    name: 'Rajesh Patel',
+    designation: 'Founder, GreenEarth Solutions',
+    description: 'The creativity and attention to detail shown in our rebranding project were outstanding. Highly recommended for companies across India!',
     imageUrl: client2,
   },
   {
     id: '3',
-    name: 'Emily Davis',
-    designation: 'Marketing Director, StyleHub',
-    description: 'A professional team that delivers results. Our new campaign assets have significantly boosted engagement.',
+    name: 'Anya Desai',
+    designation: 'Marketing Director, StyleHub Bangalore',
+    description: 'A professional team that delivers results. Our new campaign assets have significantly boosted engagement in the Indian market.',
     imageUrl: client3,
   },
 ];
@@ -88,25 +88,25 @@ const INITIAL_CLIENTS: Client[] = [
 const INITIAL_CONTACTS: ContactSubmission[] = [
   {
     id: '1',
-    fullName: 'John Doe',
-    email: 'john@example.com',
-    mobile: '+1 555 123 4567',
-    city: 'New York',
+    fullName: 'Amit Kumar',
+    email: 'amit.kumar@example.com',
+    mobile: '+91 98765 43210',
+    city: 'Mumbai',
     timestamp: new Date('2023-10-15'),
   },
   {
     id: '2',
-    fullName: 'Jane Smith',
-    email: 'jane@example.com',
-    mobile: '+1 555 987 6543',
-    city: 'San Francisco',
+    fullName: 'Sneha Gupta',
+    email: 'sneha.gupta@example.com',
+    mobile: '+91 99876 54321',
+    city: 'Bangalore',
     timestamp: new Date('2023-10-16'),
   },
 ];
 
 const INITIAL_SUBSCRIBERS: Subscriber[] = [
-  { id: '1', email: 'newsletter@fan.com', timestamp: new Date('2023-09-01') },
-  { id: '2', email: 'updates@tech.io', timestamp: new Date('2023-09-05') },
+  { id: '1', email: 'newsletter@delhi.in', timestamp: new Date('2023-09-01') },
+  { id: '2', email: 'updates@hyderabad.tech', timestamp: new Date('2023-09-05') },
 ];
 
 interface StoreState {

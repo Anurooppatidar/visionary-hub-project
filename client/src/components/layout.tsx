@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold font-display text-primary tracking-tight">CreativeAgency</span>
+            <span className="text-2xl font-bold font-display text-primary tracking-tight">Creative Studio India</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -84,9 +84,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container py-10 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
-              <span className="text-xl font-bold font-display text-primary">CreativeAgency</span>
+              <span className="text-xl font-bold font-display text-primary">Creative Studio India</span>
               <p className="mt-4 text-sm text-muted-foreground max-w-xs">
-                We build digital experiences that matter. From architectural marvels to cutting-edge apps, we bring visions to life.
+                We build digital experiences that matter. From architectural marvels to cutting-edge apps, we bring visions to life across India.
               </p>
             </div>
             <div>
@@ -115,7 +115,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="mt-10 pt-8 border-t text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} CreativeAgency. All rights reserved.
+            © {new Date().getFullYear()} Creative Studio India. All rights reserved.
           </div>
         </div>
       </footer>

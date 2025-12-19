@@ -100,7 +100,7 @@ export default function LandingPage() {
       <section className="container px-4">
         <motion.div {...fadeInUp} className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-display text-primary mb-4">Our Projects</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">Discover our latest work across architecture, technology, and branding.</p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">Discover our latest work across India - from Mumbai to Bangalore, Delhi to Hyderabad.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -142,7 +142,7 @@ export default function LandingPage() {
         <div className="container px-4">
           <motion.div {...fadeInUp} className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-display text-primary mb-4">Happy Clients</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">Don't just take our word for it. Here's what our partners have to say.</p>
+            <p className="text-muted-foreground max-w-2xl mx-auto">Trusted by leading companies across India. Here's what our partners have to say.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -192,7 +192,7 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email Us</h4>
-                  <p className="text-muted-foreground">hello@creativeagency.com</p>
+                  <p className="text-muted-foreground">hello@creativeagency.in</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -201,7 +201,7 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Call Us</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 (22) 1234 5678</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -210,7 +210,7 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Visit Us</h4>
-                  <p className="text-muted-foreground">123 Design Street, Creative City</p>
+                  <p className="text-muted-foreground">BKC, Mumbai - 400051, India</p>
                 </div>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function LandingPage() {
                     <FormItem>
                       <FormLabel>Full Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} />
+                        <Input placeholder="Rajesh Kumar" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -244,7 +244,7 @@ export default function LandingPage() {
                     <FormItem>
                       <FormLabel>Email Address</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" {...field} />
+                        <Input placeholder="rajesh@example.com" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -257,7 +257,7 @@ export default function LandingPage() {
                     <FormItem>
                       <FormLabel>Mobile Number</FormLabel>
                       <FormControl>
-                        <Input placeholder="+1 555 000 0000" {...field} />
+                        <Input placeholder="+91 98765 43210" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -270,7 +270,7 @@ export default function LandingPage() {
                     <FormItem>
                       <FormLabel>City</FormLabel>
                       <FormControl>
-                        <Input placeholder="New York" {...field} />
+                        <Input placeholder="Mumbai" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
