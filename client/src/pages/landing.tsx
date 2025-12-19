@@ -192,7 +192,7 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email Us</h4>
-                  <p className="text-muted-foreground">hello@creativeagency.in</p>
+                  <p className="text-muted-foreground">hello@visionaryhub.in</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
