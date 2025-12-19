@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: visionary-hub
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: visionary-hub-db
+          property: connectionString
+    healthCheckPath: /
+
+databases:
+  - name: visionary-hub-db
+    plan: free
+    databaseName: visionary_hub
+    user: visionary_hub_user
+

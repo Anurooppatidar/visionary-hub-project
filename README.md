@@ -127,6 +127,30 @@ Currently defined:
 - Image upload functionality
 - Persistent data storage
 
+## 🚀 Deployment
+
+This application can be deployed to various platforms. See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
+
+### Quick Deploy Options:
+
+- **Render** (Recommended): Easiest full-stack deployment with PostgreSQL
+- **Railway**: Great for full-stack apps with automatic database setup
+- **Vercel**: Good for frontend + serverless backend
+- **Fly.io**: Excellent for full-stack applications
+
+### Environment Variables for Production:
+
+```env
+NODE_ENV=production
+PORT=5000
+DATABASE_URL=your_postgresql_connection_string
+```
+
+After deployment, don't forget to run database migrations:
+```bash
+npm run db:push
+```
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
