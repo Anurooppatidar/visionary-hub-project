@@ -7,6 +7,9 @@ import project3 from '@assets/generated_images/eco-friendly_branding_packaging_d
 import client1 from '@assets/generated_images/professional_headshot_woman_business_suit.png';
 import client2 from '@assets/generated_images/professional_headshot_man_casual_business.png';
 import client3 from '@assets/generated_images/professional_headshot_creative_woman.png';
+import project4 from '@assets/generated_images/hyderabad_it_technology_park.png';
+import project5 from '@assets/generated_images/healthcare_digital_platform_interface.png';
+import project6 from '@assets/generated_images/e-commerce_website_design_mockup.png';
 
 // Types
 export interface Project {
