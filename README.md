@@ -161,7 +161,7 @@ MIT License
 
 ## 👤 Author
 
-Visionary Hub Development Team
+Anuroop Patidar
 
 ---
 
