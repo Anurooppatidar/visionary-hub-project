@@ -1,0 +1,102 @@
+Objective:- You are required to create a full-stack application consisting of a landing page and an admin panel. The application should include various features for managing project and client information, viewing contact form details, and tracking newsletter subscriptions.
+Requirements:-
+(Note- Reference Image of the landing page is given at the bottom )
+1.
+Landing Page:- Create the landing page as per the reference given above
+Features
+•
+“Our Project” Section - In this section of the landing page display all the projects by fetching them from the backend.
+Each project should include:
+1.
+Project’s Image
+2.
+Project’s Name
+3.
+Project’s Description
+4.
+A dummy Read More button (Non functional)
+Reference Image –
+•
+“Happy Clients” Section- In this section of the landing page, display all the clients by fetching them from the backend.
+Each client will include:
+1.
+Client’s Image
+2.
+Client’s Description
+3.
+Client’s Name
+4.
+Client’s Designation
+Reference image for Happy Clients Section –
+•
+Contact Form- Create a contact form as mentioned in the reference image where a user can submit the contact form details
+Contact form will contain the following inputs and button:-
+1.
+Full Name
+2.
+Email Address
+3.
+Mobile Number
+4.
+City
+5.
+Submit Button (This will submit the form’s data to the backend and these details will be shown in the admin panel)
+Reference Image-
+•
+Newsletter Subscription Section- Create a newsletter section as per the reference image.
+In the newsletter section the user can enter their email address and after clicking on the subscribe button the email address should be sent to the backend.
+Reference image –
+2.
+Admin Panel:- Create an admin panel where the admin can manage projects, clients , contact form and subscribed users.
+Features
+•
+Project Management- Create a functionality in the admin panel where the admin can add projects by entering:
+1.
+Project’s Image
+2.
+Project’s Name
+3.
+Project’s Description
+•
+Client Management- Create a functionality in the admin panel where the admin can add client info by entering:
+1.
+Client’s Image
+2.
+Client’s Name
+3.
+Client’s Description
+4.
+Client’s Designation (Ex- CEO, Web Developer, Designer)
+•
+Contact Form Details- Create a functionality where the admin can view all the contact form responses.
+The details will include:-
+1.
+Full Name
+2.
+Email Address
+3.
+Mobile Number
+4.
+City
+•
+Subscribed Email Addresses- Create a feature in admin panel where the admin can view all the subscribed email addresses.
+Additional Features:
+Note- These are the additional features for the bonus points, before implementing these features please ensure that you have completed the necessary required features which are mentioned above.
+Additional Features will include-
+1.
+Image Cropping - When uploading images from the admin panel crop the image in a specific ratio. For example if the original image is in the ratio 700 X 700 then the image should be cropped like 450 X 350 and then it should be stored in the backend.
+Evaluation Criteria
+•
+Functionality: All required features are implemented and working correctly.
+•
+Code Quality: Clean, organized, and well-documented code.
+•
+Design: Adherence to the provided reference image and overall visual appeal.
+•
+Usability: User-friendly interfaces for both the landing page and admin panel.
+Deployment :
+1.
+Deploy the frontend and backend code on any cloud platform like AWS, Microsoft Azure, Google Cloud, Heroku or any other platform.
+2.
+For databases,you can use anything. However, we’ll prefer the use of free tier sandboxes on MongoDB Atlas
+Reference Image for landing page-
